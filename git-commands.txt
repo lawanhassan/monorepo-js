@@ -1,0 +1,23 @@
+    git init
+    git add --all
+    git commit -m "initial commit"
+    git commit -m "add empty backend directory"
+    git remote add origin https://github.com/lawanhassan/monorepo-js.git
+    git branch -M main 
+    git branch frontend-layout
+    git switch frontend-layout
+    git branch 
+    git add --all
+    git commit -m "chore: add components and containers directory to frontend"
+    git status
+    git add --all
+    git commit -m "add content dynamically to page via JavaScript"
+    git push -u origin frontend-layout
+    git switch main
+    git merge frontend-layout -m "merging frontend-layout to main"
+    git add --all
+    git commit -m "add index.html file"
+    git push -u origin main
+    git branch commands
+    git branch 
+
